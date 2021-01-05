@@ -1,0 +1,14 @@
+##########Items list##########
+Pycharm
+Clion
+Zotero
+Zoom
+Conda
+Docker
+Steam
+Vim
+
+########Update list#########
+Bash_aliases
+Vimrc
+evdev
