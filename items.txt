@@ -12,3 +12,4 @@ Vim
 Bash_aliases
 Vimrc
 evdev
+terminal hotkeys
