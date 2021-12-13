@@ -23,10 +23,7 @@ alias p3='python3'
 
 alias xtp='ssh zongmiy@login.palmetto.clemson.edu'
 alias fxtp='sftp zongmiy@login.palmetto.clemson.edu'
-alias xtw='ssh zongmiy@webapp.cs.clemson.edu'
-alias xta='ssh zongmiy@access.computing.clemson.edu'
 alias xtvpn='sudo openconnect https://cuvpn.clemson.edu'
-alias xtdys='ssh -p 2213 zongmiy@dyslexia.computing.clemson.edu'
 
 # this is for git
 alias kga='git add'
