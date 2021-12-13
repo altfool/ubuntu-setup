@@ -1,8 +1,7 @@
 // translation from evdev scancodes to something resembling xfree86 keycodes.
 // commands to use:
-// sudo mv ./evdev.myprof /usr/share/X11/xkb/keycodes/
 // sudo mv /usr/share/X11/xkb/keycodes/evdev /usr/share/X11/xkb/keycodes/evdev.default
-// sudo cp /usr/share/X11/xkb/keycodes/evdev.myprof /usr/share/X11/xkb/keycodes/evdev
+// sudo cp ./evdev.myprof /usr/share/X11/xkb/keycodes/evdev
 // restart computer
 
 default xkb_keycodes "evdev" {
