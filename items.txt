@@ -7,8 +7,10 @@ Conda
 Docker
 Steam
 Vim
+wps
 Gridea
 CopyTranslator
+
 
 ########Update list#########
 Bash_aliases
