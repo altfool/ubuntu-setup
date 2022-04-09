@@ -17,3 +17,5 @@ Bash_aliases
 Vimrc
 evdev
 terminal hotkeys
+github ssh key
+
