@@ -10,6 +10,7 @@ Vim
 wps
 Gridea
 CopyTranslator
+discord
 
 
 ########Update list#########
