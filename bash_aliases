@@ -1,7 +1,7 @@
 alias h='history'
 alias cp='cp -i'
 alias mv='mv -i'
-alias l='/bin/ls -lah | less'
+alias l='/bin/ls -lah'
 alias ls='ls -FC --color=always'
 alias re='reset'
 
