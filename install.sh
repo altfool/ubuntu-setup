@@ -5,14 +5,19 @@ read -rsp "sudo passwd:" sudopasswd
 echo $sudopasswd | sudo -S apt-get update
 
 # install vim
-echo $sudopasswd | sudo -S apt-get install vim
-cp $script_dir/vimrc ~/.vimrc
+echo $sudopasswd | sudo -S apt-get install -y vim
+if [[ ! -f ~/.vimrc ]]; then
+  cp $script_dir/vimrc ~/.vimrc
+else
+  echo -e "\n\"========= config from ubuntu-setup =========" >> ~/.vimrc
+  cat $script_dir/vimrc >> ~/.vimrc
+fi
 
 # install bash_aliases
-if [[ -f "~/.bash_aliases" ]]; then 
+if [[ ! -f ~/.bash_aliases ]]; then 
   cp $script_dir/bash_aliases ~/.bash_aliases
 else
-  echo "#========= config from ubuntu-setup =========" >> ~/.bash_aliases
+  echo -e "\n#========= config from ubuntu-setup =========" >> ~/.bash_aliases
   cat $script_dir/bash_aliases >> ~/.bash_aliases
 fi
 
